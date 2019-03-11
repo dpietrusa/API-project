@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 @Component
-public class CityNameAPI {
+public class CityNameService {
 
     public CityNameData fetchCityNameData(){
         RestTemplate restTemplate = new RestTemplate();

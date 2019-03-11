@@ -1,8 +1,8 @@
 package com.detroitlabs.qualityoflife.service;
 
 
-import com.detroitlabs.qualityoflife.model.CityStatsData;
-import org.springframework.boot.jackson.JsonObjectDeserializer;
+import com.detroitlabs.qualityoflife.model.AllScoresData;
+import com.detroitlabs.qualityoflife.model.DetroitScores;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
@@ -11,14 +11,12 @@ import org.springframework.web.client.RestTemplate;
 public class CityStatsService {
 
 
-    public CityStatsData fetchCityStatsData() {
+    public DetroitScores fetchAllScoresData() {
         RestTemplate restTemplate = new RestTemplate();
         return restTemplate.getForObject("https://api.teleport.org/api/urban_areas/slug:detroit/scores/",
-                CityStatsData.class);
+                DetroitScores.class);
 
     }
-
-
 
 
     }
