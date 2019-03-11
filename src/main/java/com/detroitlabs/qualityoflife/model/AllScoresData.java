@@ -6,6 +6,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.List;
 
 
 @JsonIgnoreProperties(ignoreUnknown = true)
@@ -13,7 +14,6 @@ public class AllScoresData {
 
     String name;
     double score_out_of_10;
-
 
 
     public String getName() {
