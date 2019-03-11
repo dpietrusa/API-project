@@ -5,10 +5,8 @@ import com.detroitlabs.qualityoflife.model.CityScores;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-
 @Component
 public class CityStatsService {
-
 
     public CityScores fetchAllScoresData() {
         RestTemplate restTemplate = new RestTemplate();

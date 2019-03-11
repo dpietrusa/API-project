@@ -17,7 +17,6 @@ public class GeneralCityData {
         return full_name;
     }
 
-
     public void setFull_name(String full_name) {
         this.full_name = full_name;
     }
