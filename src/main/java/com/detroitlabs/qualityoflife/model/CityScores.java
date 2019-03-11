@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DetroitScores {
+public class CityScores {
 
     private AllScoresData allScoresData;
     private Categories categories;

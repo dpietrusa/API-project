@@ -32,6 +32,10 @@ public class AllScoresData {
         this.score_out_of_10 = score_out_of_10;
     }
 
+    public double getPercentageFromScore(){
+        this.score_out_of_10 = score_out_of_10 * 10;
+        return score_out_of_10;
+    }
 
 
 

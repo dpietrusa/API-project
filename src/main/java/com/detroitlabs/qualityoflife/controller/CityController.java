@@ -2,17 +2,15 @@ package com.detroitlabs.qualityoflife.controller;
 
 import com.detroitlabs.qualityoflife.model.AllScoresData;
 import com.detroitlabs.qualityoflife.model.Categories;
-import com.detroitlabs.qualityoflife.model.CityNameData;
-import com.detroitlabs.qualityoflife.model.DetroitScores;
+import com.detroitlabs.qualityoflife.model.CityScores;
+import com.detroitlabs.qualityoflife.model.GeneralCityData;
 import com.detroitlabs.qualityoflife.service.CityNameService;
 import com.detroitlabs.qualityoflife.service.CityStatsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -26,22 +24,24 @@ public class CityController {
 
 
     @RequestMapping("/")
-//    @ResponseBody
     public String home(ModelMap modelMap){
-        CityNameData cityNameData = cityNameService.fetchCityNameData();
-        DetroitScores detroitScores = cityStatsService.fetchAllScoresData();
-        Categories categories = detroitScores.getCategories();
-        String modifiedSummary = detroitScores.getSummary().replaceAll("\\<.*?>","");
+        GeneralCityData generalCityData = cityNameService.fetchCityNameData();
+        CityScores cityScores = cityStatsService.fetchAllScoresData();
+        Categories categories = cityScores.getCategories();
+        String modifiedSummary = cityScores.getSummary().replaceAll("\\<.*?>","");
 
-        modelMap.put("cityName", cityNameData.getFull_name());
+        modelMap.put("cityName", generalCityData.getFull_name());
 
-        List<AllScoresData> categoriesScores = detroitScores.getAllCategories();
+        List<AllScoresData> categoriesScores = cityScores.getAllCategories();
+
         modelMap.put("categoriesScores", categoriesScores);
 
         modelMap.put("summary", modifiedSummary);
 
-//        return cityNameData.getFull_name() + ": " + categories.get(0).getName()
-//                + detroitScores.getSummary() + detroitScores.getAllCategories();
+        modelMap.put("population", generalCityData.getPopulation());
+
+//        return generalCityData.getFull_name() + ": " + categories.get(0).getName()
+//                + cityScores.getSummary() + cityScores.getAllCategories();
     return "home";
     }
 

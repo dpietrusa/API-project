@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
+    <link rel="stylesheet" th:href="@{/app.css}" />
     <meta charset="UTF-8"/>
     <title>Detroit: Quality Of Life</title>
 </head>
@@ -8,7 +9,23 @@
 
 <h1 th:text = "${cityName}">City Name</h1>
 
-<a th:text = "${summary}">Summary</a>
+<h2 th:text="'Population: ' + ${population}">Population</h2>
+
+<p th:text = "${summary}">Summary</p>
+
+<ul>
+    <div th:each = "AllScoresData : ${categoriesScores}">
+
+            <li th:text = "${AllScoresData.name} + ': ' + ${AllScoresData.score_out_of_10}">List Item</li>
+
+                <div class="container">
+                    <div class="score-bar" th:text =
+                            "${AllScoresData.getPercentageFromScore()}">Percentage</div>
+                </div>
+
+
+    </div>
+</ul>
 
 </body>
 </html>

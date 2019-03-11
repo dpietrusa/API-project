@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6447a92b-b05b-444f-86df-73d428af2ca0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Static/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/detroitlabs/qualityoflife/controller/CityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/detroitlabs/qualityoflife/controller/CityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/detroitlabs/qualityoflife/model/CityNameData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/detroitlabs/qualityoflife/model/DetroitScores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/detroitlabs/qualityoflife/service/CityNameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/detroitlabs/qualityoflife/service/CityNameService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/detroitlabs/qualityoflife/service/CityStatsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/detroitlabs/qualityoflife/service/CityStatsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/Templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/Templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/controller/CityController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/AllScoresData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/AllScoresData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/Categories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/DetroitScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/DetroitScores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/CityNameData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/GeneralCityData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/DetroitScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/CityScores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/service/CityNameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/service/CityNameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/service/CityStatsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/service/CityStatsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Templates/home.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/AllScoresData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="406">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#407#408#0" expanded="true" />
@@ -83,18 +93,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/DetroitScores.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/CityScores.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="-65">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#949#950#0" expanded="true" />
-                <element signature="e#1042#1043#0" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#946#947#0" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,47 +113,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/service/CityStatsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="135">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/controller/CityController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Static/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/controller/CityController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="345">
+              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#div#0;n#li#1;n#div#0;n#ul#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Templates/home.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/GeneralCityData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/CityNameData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="335">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#361#362#0" expanded="true" />
                 <element signature="e#393#394#0" expanded="true" />
                 <element signature="e#444#445#0" expanded="true" />
                 <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,6 +181,7 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -170,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/api/CityScoresAPI.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/CityScoresAPI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/service/CityScoresAPI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/CityScores.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/service/CityScoresAPI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/service/CityNameAPI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/service/CityStatsAPI.java" />
@@ -179,18 +204,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/categories.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/service/CityStatsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/Categories.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/AllScoresData.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Templates/home.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/DetroitScores.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/CityNameData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/CityScores.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/GeneralCityData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/controller/CityController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Templates/App.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/Templates/app.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/Static/app.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/AllScoresData.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Templates/home.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="17" />
     <option name="y" value="23" />
-    <option name="width" value="1120" />
+    <option name="width" value="1016" />
     <option name="height" value="814" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -298,6 +327,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="Templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -315,13 +352,20 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552268662510" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552274549654" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/Static" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -354,15 +398,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552057008086</updated>
-      <workItem from="1552057015522" duration="30336000" />
+      <workItem from="1552057015522" duration="35912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30336000" />
+    <option name="totallyTimeSpent" value="35912000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="17" y="23" width="1120" height="814" extended-state="0" />
+    <frame x="0" y="23" width="1016" height="814" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -370,7 +415,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28107607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3110883" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32963988" />
       <window_info anchor="bottom" id="Spring" weight="0.32963988" />
@@ -475,18 +520,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/service/CityStatsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="135">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -500,10 +538,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/GeneralCityData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Static/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/CityScores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/controller/CityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/AllScoresData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="406">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#407#408#0" expanded="true" />
@@ -518,42 +606,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/DetroitScores.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="345">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/model/CityNameData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/qualityoflife/controller/CityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#div#0;n#li#1;n#div#0;n#ul#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
