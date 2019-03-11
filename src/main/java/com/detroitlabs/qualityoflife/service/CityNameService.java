@@ -1,16 +1,20 @@
 package com.detroitlabs.qualityoflife.service;
 
 
-import com.detroitlabs.qualityoflife.model.CityScores;
+import com.detroitlabs.qualityoflife.model.CityNameData;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 @Component
-public class CityScoresAPI {
+public class CityNameAPI {
 
-    public CityScores fetchCityScores(){
+    public CityNameData fetchCityNameData(){
         RestTemplate restTemplate = new RestTemplate();
         return restTemplate.getForObject(
-                "https://api.teleport.org/api/cities/geonameid:4990729/", CityScores.class);
+                "https://api.teleport.org/api/cities/geonameid:4990729/", CityNameData.class);
     }
+
+
+
+
 }
