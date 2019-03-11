@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.lang.reflect.Array;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,6 +17,7 @@ public class AllScoresData {
     double score_out_of_10;
 
 
+
     public String getName() {
         return name;
     }
@@ -24,8 +26,8 @@ public class AllScoresData {
         this.name = name;
     }
 
-    public double getScore_out_of_10() {
-        return score_out_of_10;
+    public double  getScore_out_of_10() {
+        return Math.round(score_out_of_10);
     }
 
     public void setScore_out_of_10(double score_out_of_10) {
